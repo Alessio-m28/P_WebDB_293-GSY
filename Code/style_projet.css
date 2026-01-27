@@ -67,6 +67,7 @@ nav{
 
 #button_1{
     position: relative;
+    text-align: end;
     background-color: black;
     color: white;
     border: solid;
@@ -88,22 +89,17 @@ nav{
 }
 
 
-#Araki_1{
-    background-image: url(https://static.jojowiki.com/images/thumb/8/83/latest/20240516083351/Hirohiko_Araki.png/400px-Hirohiko_Araki.png);
-    background-repeat: no-repeat;
-    position: relative;
-    width: 400px;
-    border: solid;
-    border-radius: 15px;
+
+#Araki_photo{
+    display: flex;
+    justify-content: center; /* Centrage horizontal */
+    align-items: center;     /* Centrage vertical (optionnel) */
+
 }
 
-#Araki_2{
-    background-image: url(https://www.shoshosein.com/sites/default/files/auteur/araki-hirohiko.jpg);
-    position: relative;
-    width: 800px;
-    left: 300px;
-    border: solid;
-    border-radius: 15px;
+#phto{
+    max-width: 100%;  /* Empêche l'image de dépasser la largeur de l'écran */
+    height: auto;     /* Conserve les proportions */
 }
 
 #auteur_title{
