@@ -94,12 +94,13 @@ nav{
     display: flex;
     justify-content: center; /* Centrage horizontal */
     align-items: center;     /* Centrage vertical (optionnel) */
-
 }
 
-#phto{
+#photo{
     max-width: 100%;  /* Empêche l'image de dépasser la largeur de l'écran */
     height: auto;     /* Conserve les proportions */
+    border: solid;
+    border-radius: 15px;
 }
 
 #auteur_title{
