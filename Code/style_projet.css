@@ -1,4 +1,8 @@
 
+body{
+    background-color: rgb(0, 255, 255);
+}
+
 #header_home_page{
     color: white;
     background-color: purple;
@@ -59,34 +63,33 @@ a{
 }
 
 
+
+
 nav{
+    display: flex;
     background-color: purple;
     padding: 10px;
     border-radius: 10px;
+    justify-content: space-between;
+    border: solid;
 }
 
 #button_1{
-    position: relative;
-    text-align: end;
     background-color: black;
     color: white;
     border: solid;
     padding: 1dvh;
     border-radius: 7px;
-    bottom: 1.5dvh;
-    left: 160dvh;
 }
 
 #button_2{
-    position: relative;
     background-color: white;
     color: black;
     border: solid;
     padding: 1dvh;
     border-radius: 7px;
-    bottom: 1.5dvh;
-    left: 162dvh;
 }
+
 
 
 
@@ -94,6 +97,7 @@ nav{
     display: flex;
     justify-content: center; /* Centrage horizontal */
     align-items: center;     /* Centrage vertical (optionnel) */
+    
 }
 
 #photo{
@@ -105,4 +109,127 @@ nav{
 
 #auteur_title{
     text-align: center;
+}
+
+#Biographie{
+    text-align: center;
+    border: solid;
+    border-radius: 15px;
+    background-color:RGB(255, 234, 112);
+}
+
+
+
+
+#part_histoire{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-self: center;
+    align-items: center;
+    margin-top: 8dvh;
+}
+
+#part1_histoire{
+    border: solid;
+    max-width: 40dvh;
+    height: auto;
+    border-radius: 15px;
+}
+
+#part2_histoire{
+    border: solid;
+    max-width: 40dvh;
+    height: auto;
+    border-radius: 15px;
+}
+
+#part3_histoire{
+    border: solid;
+    max-width: 40dvh;
+    height: auto;
+    border-radius: 15px;
+}
+
+#part4_histoire{
+    border: solid;
+    max-width: 40dvh;
+    height: auto;
+    border-radius: 15px;
+    background-color: white;
+}
+
+#part5_histoire{
+    border: solid;
+    max-width: 40dvh;
+    height: auto;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+}
+
+#part6_histoire{
+    border: solid;
+    max-width: 49dvh;
+    height: auto;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+}
+
+#part7_histoire{
+    border: solid;
+    max-width: 40dvh;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+
+#texte_part{
+    text-align: center;
+}
+
+#img_part{
+    display: flex;
+    justify-content: center; /* Centrage horizontal */
+    align-items: center;     /* Centrage vertical (optionnel) */
+}
+
+#img_aspect{
+    max-width: 100%;  /* Empêche l'image de dépasser la largeur de l'écran */
+    height: auto;     /* Conserve les proportions */
+    border: solid;
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+
+
+footer{
+    display: flex;
+    border: solid;
+    border-color: black;
+    background-color: purple;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    justify-content: space-between;
+}
+
+#footer_button_part1{
+    margin-left: auto;
+    border: solid;
+    padding: 5px;
+    background-color: black;
+    border-radius: 7px;
+}
+
+#footer_button_part2-6{
+    border: solid;
+    padding: 5px;
+    background-color: black;
+    border-radius: 7px;
 }
