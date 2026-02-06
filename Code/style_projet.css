@@ -1,6 +1,7 @@
 
 body{
     background-color: rgb(0, 255, 255);
+    
 }
 
 a{
@@ -129,8 +130,8 @@ nav{
     flex-wrap: wrap;
     width: 80%;
     justify-self: center;
-    align-items: center;
-    margin-top: 8dvh;
+    align-items:last center;
+    margin-top: 10dvh;
 }
 
 #part1_histoire{
@@ -187,11 +188,6 @@ nav{
     border-radius: 15px;
 }
 
-#img_part_cover{
-    position: sticky;
-    top: 0;
-    z-index: -1;
-}
 
 
 p, h2, h1{
@@ -205,14 +201,20 @@ p, h2, h1{
     flex-wrap: wrap; 
 }
 
-
-
 #img_aspect{
     max-width: 100%; 
     height: auto;   
     border: solid;
     border-radius: 15px;
     background-color: white;
+}
+
+#img_aspect_black{
+    max-width: 100%; 
+    height: auto;   
+    border: solid;
+    border-radius: 15px;
+    background-color: black;
 }
 
 
