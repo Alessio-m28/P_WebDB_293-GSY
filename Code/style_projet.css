@@ -63,6 +63,7 @@ a{
     position: relative;
     text-align: center;
     left: 3dvh;
+    width: 97%;
 }
 
 
@@ -232,7 +233,7 @@ footer{
     justify-content: space-between;
 }
 
-#footer_button_part1{
+#footer_1_button{
     margin-left: auto;
     border: solid;
     padding: 5px;
@@ -240,7 +241,7 @@ footer{
     border-radius: 7px;
 }
 
-#footer_button_part2-6{
+#footer_button_part2-7{
     border: solid;
     padding: 5px;
     background-color: black;
