@@ -71,11 +71,14 @@ a{
 
 nav{
     display: flex;
+    position: sticky;
+    top: 5px;
     background-color: purple;
     padding: 10px;
     border-radius: 10px;
     justify-content: space-between;
     border: solid;
+    opacity: 0.8;
 }
 
 #button_1{
@@ -140,6 +143,7 @@ nav{
     max-width: 40dvh;
     height: auto;
     border-radius: 15px;
+
 }
 
 #part2_histoire{
@@ -189,11 +193,18 @@ nav{
     border-radius: 15px;
 }
 
+#arbre_genealogique_logo{
+    border: solid;
+    max-width: 40dvh;
+    height: auto;
+    border-radius: 15px;
+}
 
 
 p, h2, h1{
     text-align: center;
 }
+
 
 #img_part{
     display: flex;
