@@ -7,6 +7,14 @@
 
     <title>Contact</title>
 
+    <style>
+        body{
+            background-image: url(images/contact-background_pattern.jpg);
+            color: white;
+        }
+    </style>
+
+
 </head>
 
 <body>
@@ -26,38 +34,46 @@
         </span>
     </nav>
 
+        <main>
+            <article id="contact">      
+                <h2>MERCI D'AVOIR VISITÉ MON SITE !</h2>
 
+                <p>
+                    Vous pourrez me donner votre avis et des suggestions sur le site via le formulaire ci-dessous. <br>
+                    Je vous remercie d'avance pour vos retour et oublier pas, <strong> ALLEZ REGARDER JOJO !</strong>
+                </p>
+            </article>  
 
-    <h2>MERCI D'AVOIR VISITÉ MON SITE !</h2>
+            <form action="remerciement.html">
 
-    <p>
-        Vous pourrez me donner un retour sur le site via le formulaire si-dessous. <br>
-        Je vous remercie d'avance pour vos retour et oublier pas, <strong> ALLEZ REGARDER JOJO !</strong>
-    </p>
+                <article id="contact">
+                    Nom <input type="text"> <br> <br>
+                    Prénom <input type="text"> <br><br>
+                    Adresse E-Mail <input type="email"> <br>
+                </article>
 
-    <br>
+                <article id="contact">
 
-    <form action="remerciement.html">
+                    Est ce que le site vous a plu ?
+                    <input type="radio" name="like" value="oui" required> 👍 
+                    <input type="radio" name="like" value="non"> 👎 <br> 
 
-        <div>
-            Nom <input type="text"> <br> <br>
-            Prenom * <input type="text" required> <br><br>
-            Adresse E-Mail <input type="email"> <br><br>
+                </article>
 
-            Message * <br> <textarea rows="6" cols="40" required></textarea> <br><br>
+                <article id="contact">
+                    Message * <br> <textarea rows="6" cols="40" required></textarea> <br>
+                </article>
+                <br>
+                
+                <input type="submit">
+             
+                
 
-
-            Est ce que le site vous a plu ?
-            <input type="radio" name="like" value="oui" required> 👍 
-            <input type="radio" name="like" value="non"> 👎 <br> <br><br>
-
-            <input type="submit">
-
-        </div>
-
-
-    </form>
+            </form>
     
+    </main>
+
+   
 
 
 </body>
