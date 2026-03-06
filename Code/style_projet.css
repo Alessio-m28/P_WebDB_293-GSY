@@ -14,10 +14,17 @@ a{
     color: white;
     position: relative;
     text-align: center;
+    margin-top: 10%;
+    margin-bottom: 8%;
 }
 
 a{
     color: currentColor
+}
+
+#span_header_parent{
+    display: flex;
+    justify-content: space-around;
 }
 
 #span_header_1{
@@ -25,8 +32,6 @@ a{
     padding: 1dvh;
     border: solid;
     border-color: rgb(255, 255, 255);
-    position: relative;
-    right: 10dvh;
     border-radius: 10px;
 }
 
@@ -44,8 +49,6 @@ a{
     padding: 1dvh;
     border: solid;
     border-color: rgb(255, 255, 255);
-    position: relative;
-    left: 10dvh;
     border-radius: 10px;
 }
 
@@ -57,7 +60,7 @@ a{
 #span_intro, #intro{
     position: relative;
     text-align: center;
-    left: 3dvh;
+    left: 2dvh;
     width: 5%;
     text-shadow: 3px 2px  #590a6088;
 }
@@ -69,13 +72,12 @@ nav{
     display: flex;
     position: sticky;
     top: 5px;
-    background-color: purple;
+    background-color: rgba(128, 0, 128, 0.816);
     padding: 10px;
     border-radius: 10px;
     justify-content: space-between;
     border: solid;
     border-color: black;
-    opacity: 0.8;
 }
 
 #button_1{
@@ -176,11 +178,11 @@ nav{
 
 #part6_histoire{
     border: solid;
-    max-width: 49dvh;
+    max-width: 48dvh;
     height: auto;
     border-radius: 15px;
     padding: 10px;
-    background-color: white;
+    background-color: rgb(247, 247, 247);
 }
 
 #part7_histoire{
@@ -208,6 +210,7 @@ p, h2, h1{
     justify-content: space-around;
     align-items: center;    
     flex-wrap: wrap; 
+    gap: 10px;
 }
 
 #img_aspect{
@@ -216,14 +219,6 @@ p, h2, h1{
     border: solid;
     border-radius: 15px;
     background-color: white;
-}
-
-#img_aspect_black{
-    max-width: 100%; 
-    height: auto;   
-    border: solid;
-    border-radius: 15px;
-    background-color: black;
 }
 
 
