@@ -78,6 +78,7 @@ nav{
     justify-content: space-between;
     border: solid;
     border-color: black;
+    z-index: 10;
 }
 
 #button_1{
@@ -127,15 +128,71 @@ nav{
 
 
 
-#part_histoire{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 80%;
-    justify-self: center;
-    align-items: center;
-    margin-top: 10dvh;
+@media screen and (min-width : 701px) {
+    #part6_histoire{
+        border: solid;
+        max-width: 48dvh;
+        height: auto;
+        border-radius: 15px;
+        padding: 10px;
+        background-color: rgb(247, 247, 247);
+    }
+
+    #part5_histoire{
+        border: solid;
+        max-width: 40dvh;
+        height: auto;
+        border-radius: 15px;
+        padding: 10px;
+        background-color: white;
+    }
+
+    #part_histoire{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 80%;
+        justify-self: center;
+        align-items: center;
+        margin-top: 10dvh;
+    }
 }
+
+@media screen and (max-width : 700px) {
+    #part6_histoire{
+        border: solid;
+        max-width: 42dvh;
+        height: auto;
+        border-radius: 15px;
+        padding: 10px;
+        background-color: rgb(247, 247, 247);
+        position: relative;
+        right: 5%;
+    }
+
+    #part5_histoire{
+        border: solid;
+        max-width: 40dvh;
+        height: auto;
+        border-radius: 15px;
+        padding: 10px;
+        background-color: white;
+        position: relative;
+        right: 3%;
+    }
+
+    #part_histoire{
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        width: 95%;
+        left: 5%;
+        justify-self: center;
+        align-items: center;
+        margin-top: 10dvh;  
+    }
+}
+
 
 #part1_histoire{
     border: solid;
@@ -167,23 +224,6 @@ nav{
     background-color: white;
 }
 
-#part5_histoire{
-    border: solid;
-    max-width: 40dvh;
-    height: auto;
-    border-radius: 15px;
-    padding: 10px;
-    background-color: white;
-}
-
-#part6_histoire{
-    border: solid;
-    max-width: 48dvh;
-    height: auto;
-    border-radius: 15px;
-    padding: 10px;
-    background-color: rgb(247, 247, 247);
-}
 
 #part7_histoire{
     border: solid;
