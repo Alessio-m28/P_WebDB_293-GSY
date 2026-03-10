@@ -16,12 +16,15 @@
             background-attachment: fixed;
         }
 
+        input[type="text"],
+        input[type="email"],
         textarea {
-            width: 100%; /* S'adapte à la largeur du parent */
-            max-width: 100%; /* Empêche de dépasser */
-            box-sizing: border-box; /* Padding inclus dans la largeur */
-            resize: vertical; /* Permet seulement le redimensionnement vertical */
-            padding: 10px; /* Ajoute de l'espace interne */
+            width: 90%; 
+            max-width: 90%; 
+            box-sizing: border-box; 
+            resize: vertical; 
+            padding: 10px; 
+            border-radius: 10px;
         }
     </style>
 
@@ -70,9 +73,9 @@
 
                 <article id="contact">
 
-                    Le site vous a-t-il plu ?
-                    <input type="radio" name="like" value="oui" required> 👍 
-                    <input type="radio" name="like" value="non"> 👎 <br> 
+                    Le site vous a-t-il plu ? * <br>
+                    <input type="radio" name="like" required> 👍 
+                    <input type="radio" name="like"> 👎 <br> 
 
                 </article>
 
